@@ -1,15 +1,43 @@
 # See docs at: https://mystmd.org/guide/frontmatter
 version: 1
 project:
+  plugins:
+    - https://github.com/jupyter-book/myst-plugins/releases/download/exercise-and-solution-pdf/exercise-admonition-pdf.mjs
+    - https://github.com/jupyter-book/myst-plugins/releases/download/Admonitions/experiment-admonition.mjs
+    - https://github.com/jupyter-book/myst-plugins/releases/download/Admonitions/intermezzo-admonition.mjs
+    - https://github.com/TUD-JB-Templates/JB2_plugins/releases/download/example/example.mjs
+    - https://github.com/jupyter-book/myst-plugins/releases/download/updated-date-frontmatter/update-date-frontmatter.mjs
+    - https://github.com/jupyter-book/myst-plugins/releases/download/page-last-updated/page-last-updated.mjs
+
   id: b2c3278f-f371-4fe3-a310-02f175604b48
-  # title:
+  title: '42H: 머신러닝'
+
+  numbering: 
+    title: 
+      enabled: true
+      offset: 0
+      # start: 1
+    headings: true
+
   # description:
   # keywords: []
   # authors: []
   github: https://github.com/codingalzi/code-workout-ml
+
   # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
+  toc:
+    - file: intro.ipynb
+    - file: ml_landscape.ipynb
+    - file: end2end_ml_project.ipynb
+    - file: classification.ipynb
+    - file: training_models.ipynb
+    - file: decision_trees.ipynb
+    - file: ensemble_learning_random_forests.ipynb
+    - file: dimensionality_reduction.ipynb
+    - file: unsupervised_learning.ipynb
+
 site:
   template: book-theme
-  # options:
-  #   favicon: favicon.ico
-  #   logo: site_logo.png
+  options:
+    favicon: favicon.ico
+    logo: codingalzi.svg
