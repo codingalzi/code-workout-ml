@@ -1,0 +1,15 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: b2c3278f-f371-4fe3-a310-02f175604b48
+  # title:
+  # description:
+  # keywords: []
+  # authors: []
+  github: https://github.com/codingalzi/code-workout-ml
+  # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
+site:
+  template: book-theme
+  # options:
+  #   favicon: favicon.ico
+  #   logo: site_logo.png
