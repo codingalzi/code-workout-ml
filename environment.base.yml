@@ -1,0 +1,68 @@
+# Conda environment spec to update the base environment for data analysis
+# Apply with:
+#   conda env update -n base -f environment.base.yml
+# Dry-run first to preview changes:
+#   conda env update -n base -f environment.base.yml --dry-run
+
+name: base
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  # Core Python runtime will follow the existing base's Python version
+  # - python
+  # Pip Manager
+  - pip
+
+  # Jupyter Environment
+  - jupyterlab
+  - jupyterlab-myst
+  - notebook        # Classic Jupyter Notebook UI
+  - ipykernel       # Kernel for Jupyter
+  - ipywidgets      # Interactive widgets
+
+  # Documentation
+  - jupyter-book
+
+  # Core Data Science
+  - numpy
+  - pandas
+  - pyarrow
+  - scipy
+  - statsmodels
+  - pillow          # Image processing
+  - openpyxl        # Excel xlsx
+  - xlrd            # Older xls
+  - lxml            # HTML/XML parsing
+
+  # Machine Learning
+  - scikit-learn
+  - lightgbm
+  - xgboost
+  - catboost
+  - flaml
+  - optuna
+
+  # Visualization
+  - matplotlib
+  - seaborn
+  - graphviz        # Decision tree visualization
+  - python-graphviz
+  - pydot
+
+  # Utilities
+  - requests
+  - tqdm
+
+  # Interpretability
+  - shap
+
+  - pip:
+    # Kaggle & Data
+    - kagglehub                 # Kaggle datasets
+
+    # Advanced ML Tools (pip-only)
+    - optuna-dashboard          # Optuna dashboard
+    - interpret                 # InterpretML
+    - dcor                      # Distance correlation

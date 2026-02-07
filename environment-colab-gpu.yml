@@ -1,0 +1,88 @@
+name: colab312
+channels:
+  - conda-forge
+  - nvidia
+  - defaults
+
+dependencies:
+  # Core Python
+  - python=3.12.12
+    # Pip Manager
+  - pip
+
+  # Jupyter Environment
+  - jupyterlab
+  - jupyterlab-myst
+  - notebook        # Classic Jupyter Notebook UI
+  - ipykernel       # Kernel for Jupyter
+  - ipywidgets      # Interactive widgets
+
+  # Documentation
+  - jupyter-book
+
+  # Core Data Science
+  - numpy
+  - pandas
+  - pyarrow
+  - scipy
+  - statsmodels
+  - pillow          # Image processing
+  - openpyxl        # Excel xlsx
+  - xlrd            # Older xls
+  - lxml            # HTML/XML parsing
+  
+  # Machine Learning
+  - scikit-learn
+  - lightgbm
+  - xgboost
+  - catboost
+  - flaml
+  - optuna
+
+  # Visualization
+  - matplotlib
+  - seaborn
+  - graphviz
+  - python-graphviz
+  - pydot
+
+  # Utilities
+  - requests
+  - tqdm
+
+  # Deep Learning Tools
+  - tensorboard
+  - transformers
+  - tokenizers
+  - datasets
+
+  # MLOps
+  - gradio
+  - wandb
+
+  # Interpretability
+  - shap
+
+  - pip:
+    # Deep Learning Frameworks (CUDA support)
+    - keras
+    - tensorflow>=2.19.0        # TensorFlow with CUDA (Colab: 2.19.0)
+    - protobuf>=6.33.5          # Fix version conflict warning (Latest 6.x)
+    - torch>=2.9.0              # PyTorch with CUDA 12.6 (Colab: 2.9.0+cu126)
+    - torchvision
+    - torchaudio
+    - jax[cuda12]>=0.5.3        # JAX with CUDA 12 support
+    - jaxlib>=0.5.3
+    
+    # Deep Learning Utilities (pip recommended)
+    - tensorflow-datasets
+    - tensorflow-hub
+    - accelerate
+    
+    # Kaggle & Data
+    - kagglehub                 # Kaggle datasets
+    
+    # Advanced ML Tools (pip-only)
+    - optuna-dashboard          # Optuna dashboard
+    - interpret                 # InterpretML
+    - dcor                      # Distance correlation

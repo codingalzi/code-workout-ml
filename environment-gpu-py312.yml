@@ -1,0 +1,61 @@
+name: gpy312
+channels:
+  - conda-forge
+  - nvidia
+  - defaults
+dependencies:
+  - python=3.12.12
+  - pip
+  - jupyterlab
+  - jupyterlab-myst
+  - notebook
+  - ipython
+  - ipywidgets
+  - matplotlib
+  - numpy
+  - pandas
+  - pillow
+  - scikit-learn
+  - scipy
+  - requests
+  - tqdm
+  - seaborn
+  - graphviz
+  - python-graphviz
+  - pydot
+  - flaml
+  - catboost
+  - openpyxl
+  - pip:
+    # Latest Keras 3
+    - keras
+    # TensorFlow with CUDA support (Colab uses 2.19.0)
+    - tensorflow[and-cuda]
+    # PyTorch with CUDA 12.6 support (Colab uses 2.8.0+cu126)
+    - torch --index-url https://download.pytorch.org/whl/cu126
+    - torchvision --index-url https://download.pytorch.org/whl/cu126
+    - torchaudio --index-url https://download.pytorch.org/whl/cu126
+    # JAX with CUDA 12 support (Colab uses 0.5.3)
+    - jax[cuda12]>=0.5.3
+    - jaxlib>=0.5.3
+    # Other useful packages
+    - kagglehub
+    - tensorflow-datasets
+    - tensorflow-hub
+    - tensorboard
+    - transformers
+    - tokenizers
+    - datasets
+    - accelerate
+    - gradio
+    - wandb
+    - jupyter-book
+    # ML libraries
+    - lightgbm
+    - optuna
+    - optuna-dashboard
+    - xgboost
+    - interpret
+    - dcor
+    # Interpretability
+    - shap
