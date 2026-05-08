@@ -37,7 +37,7 @@ project:
     - file: classification.ipynb
     - file: training_models.ipynb
     - file: decision_trees.ipynb
-    - file: ensemble_learning_random_forests.ipynb
+    - file: ensemble_learning.ipynb
     - file: dimensionality_reduction.ipynb
     - file: unsupervised_learning.ipynb
 
