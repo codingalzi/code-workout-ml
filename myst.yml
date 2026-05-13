@@ -38,7 +38,7 @@ project:
     - file: training_models.ipynb
     - file: decision_trees.ipynb
     - file: ensemble_learning.ipynb
-    - file: dimensionality_reduction.ipynb
+    - file: pca.ipynb
     - file: unsupervised_learning.ipynb
 
 site:
