@@ -3,4 +3,5 @@ _build
 
 # 저장된 모델 무시
 *.pkl
+*.mmap
 notebooks/datasets/creditcard.csv
