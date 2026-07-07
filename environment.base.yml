@@ -51,6 +51,7 @@ dependencies:
   - graphviz        # Decision tree visualization
   - python-graphviz
   - pydot
+  - networkx        # Network analysis and graph algorithms
 
   # Utilities
   - requests
