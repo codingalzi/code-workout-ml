@@ -45,6 +45,9 @@ dependencies:
   - flaml
   - optuna
 
+  # data repo
+  - ucimlrepo
+
   # Visualization
   - matplotlib
   - seaborn
