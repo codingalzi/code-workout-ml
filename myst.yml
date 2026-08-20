@@ -33,7 +33,6 @@ project:
   toc:
     - file: intro.ipynb
     - file: ml_landscape.ipynb
-    - file: ml_landscape_core_revised.ipynb
     - file: end2end_ml_project.ipynb
     - file: project1_bike_demand.ipynb
     - file: classification.ipynb
