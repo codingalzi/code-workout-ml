@@ -10,7 +10,7 @@ project:
     - https://github.com/jupyter-book/myst-plugins/releases/download/page-last-updated/page-last-updated.mjs
 
   id: b2c3278f-f371-4fe3-a310-02f175604b48
-  title: '42H: 머신러닝'
+  title: '데이터 과학을 위한 머신러닝'
 
   numbering: 
     title: true
@@ -33,7 +33,9 @@ project:
   toc:
     - file: intro.ipynb
     - file: ml_landscape.ipynb
+    - file: ml_landscape_core_revised.ipynb
     - file: end2end_ml_project.ipynb
+    - file: project1_bike_demand.ipynb
     - file: classification.ipynb
     - file: training_models.ipynb
     - file: decision_trees.ipynb
