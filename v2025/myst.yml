@@ -1,0 +1,48 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  plugins:
+    - https://github.com/jupyter-book/myst-plugins/releases/download/exercise-and-solution-pdf/exercise-admonition-pdf.mjs
+    - https://github.com/jupyter-book/myst-plugins/releases/download/Admonitions/experiment-admonition.mjs
+    - https://github.com/jupyter-book/myst-plugins/releases/download/Admonitions/intermezzo-admonition.mjs
+    - https://github.com/TUD-JB-Templates/JB2_plugins/releases/download/example/example.mjs
+    - https://github.com/jupyter-book/myst-plugins/releases/download/updated-date-frontmatter/update-date-frontmatter.mjs
+    - https://github.com/jupyter-book/myst-plugins/releases/download/page-last-updated/page-last-updated.mjs
+
+  id: b2c3278f-f371-4fe3-a310-02f175604b48
+  title: '데이터 과학을 위한 머신러닝'
+
+  numbering: 
+    title: true
+    headings: true
+
+  # description:
+  # keywords: []
+  # authors: []
+  github: https://github.com/codingalzi/code-workout-ml
+
+  exports:
+    - format: typst
+      template: https://github.com/myst-templates/plain_typst_book.git 
+      output: exports/MechaRela.pdf
+      id: output-pdf1
+      logo: logo_TUD.png
+      cover: cover.png
+
+  # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
+  toc:
+    - file: intro.ipynb
+    - file: ml_landscape.ipynb
+    - file: end2end_ml_project.ipynb
+    - file: classification.ipynb
+    - file: training_models.ipynb
+    - file: decision_trees.ipynb
+    - file: ensemble_learning.ipynb
+    - file: pca.ipynb
+    - file: unsupervised_learning.ipynb
+
+site:
+  template: book-theme
+  options:
+    favicon: favicon.ico
+    logo: codingalzi.svg
