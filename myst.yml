@@ -32,7 +32,10 @@ project:
   # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
   toc:
     - file: intro.ipynb
-    - file: handson_intro.ipynb
+    - file: p0_theory_handson_intro.ipynb
+    - file: p0_lab_handson_intro.ipynb
+    - file: p1_theory_end2end_regression.ipynb
+    - file: p1_lab_end2end_regression.ipynb
     - file: end2end_ml_project.ipynb
     - file: project1_bike_demand.ipynb
     - file: classification.ipynb
