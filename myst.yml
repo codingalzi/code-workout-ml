@@ -34,10 +34,10 @@ project:
     - file: intro.ipynb
     - file: p0_theory_handson_intro.ipynb
     - file: p0_lab_handson_intro.ipynb
-    - file: p1_theory_end2end_regression.ipynb
-    - file: p1_lab_end2end_regression.ipynb
-    - file: end2end_ml_project.ipynb
-    - file: project1_bike_demand.ipynb
+    - file: p1_theory_end2end_ml_project.ipynb
+    - file: p1_lab_end2end_ml_project.ipynb
+    # - file: end2end_ml_project.ipynb
+    - file: p1_project_bike_demand.ipynb
     - file: classification.ipynb
     - file: training_models.ipynb
     - file: decision_trees.ipynb
