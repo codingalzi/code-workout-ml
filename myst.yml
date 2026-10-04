@@ -41,8 +41,7 @@ project:
     - file: p2_lab_classification.ipynb
     - file: p2_project_bank_marketing.ipynb
     - file: p3_lab_gradient_descent.ipynb
-    # - file: classification.ipynb
-    - file: training_models.ipynb
+    - file: p3_project_california_housing.ipynb
     - file: decision_trees.ipynb
     - file: ensemble_learning.ipynb
     - file: pca.ipynb
