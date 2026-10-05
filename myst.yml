@@ -40,6 +40,7 @@ project:
     - file: p2_theory_classification.ipynb
     - file: p2_lab_classification.ipynb
     - file: p2_project_bank_marketing.ipynb
+    - file: p3_theory_gradient_descent.ipynb
     - file: p3_lab_gradient_descent.ipynb
     - file: p3_project_california_housing.ipynb
     - file: decision_trees.ipynb
