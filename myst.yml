@@ -43,9 +43,8 @@ project:
     - file: p3_theory_gradient_descent.ipynb
     - file: p3_lab_gradient_descent.ipynb
     - file: p3_project_california_housing.ipynb
+    - file: p4_theory_decision_trees_ensemble.ipynb
     - file: p4_lab_decision_trees_ensemble.ipynb
-    - file: decision_trees.ipynb
-    - file: ensemble_learning.ipynb
     - file: pca.ipynb
     - file: unsupervised_learning.ipynb
 
