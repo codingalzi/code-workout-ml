@@ -45,6 +45,7 @@ project:
     - file: p3_project_california_housing.ipynb
     - file: p4_theory_decision_trees_ensemble.ipynb
     - file: p4_lab_decision_trees_ensemble.ipynb
+    - file: p4_project_wine_quality.ipynb
     - file: pca.ipynb
     - file: unsupervised_learning.ipynb
 
