@@ -46,9 +46,8 @@ project:
     - file: p4_theory_decision_trees_ensemble.ipynb
     - file: p4_lab_decision_trees_ensemble.ipynb
     - file: p4_project_wine_quality.ipynb
-    - file: pca.ipynb
-    - file: unsupervised_learning.ipynb
-
+    - file: p5_theory_unsupervised_learning.ipynb
+    - file: p5_project_seoul_bike_clustering.ipynb
 site:
   template: book-theme
   options:
